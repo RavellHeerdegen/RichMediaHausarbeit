@@ -1,0 +1,108 @@
+<!doctype html>
+<head>
+
+	<script language="JavaScript">
+		//Script für eine einfache Erfassung der Renderdauer der Seite
+		var renderStart = new Date().getTime();
+		window.onload=function() { 
+			var elapsed = new Date().getTime()-renderStart;
+			document.querySelector('.time').innerHTML = "Gerendert in "+elapsed +"ms";
+		} 
+
+	</script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dokdo" />
+	<link rel="stylesheet" href="/styles.css" />
+	<title>CSS Web-Page Test</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="box">
+			<h1>Herzlich Willkommen</h1>
+			<p>Dies ist eine HTML die für das Testen verschiedener CSS Konfigurationen vorbereitet wurde. Dabei soll ermittelt werden, wie sich CSS auf die Performance beim Laden einer Webseite auswirkt.</p>
+		</div>
+		<div class="box">
+			<h1>Testelemente</h1>
+			</br>
+			<h2>Bild</h2>
+			<img src="bild.jpg" alt="" width="200" height="200" />
+			
+			</br>
+			
+			<h2>Tabelle</h2>
+			<table>
+			<tr>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+			</tr>
+			<tr>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+			</tr>
+			<tr>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+			</tr>
+			<tr>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+			</tr>
+			<tr>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+				<td>Test Inhalt</td>
+			</tr>
+			</table>
+			
+			</br>
+			
+			<h2>Button</h2>
+			<button>Testbutton</button>
+			<button>Testbutton</button>
+			<button>Testbutton</button>
+			<button>Testbutton</button>
+			<button>Testbutton</button>
+			<button>Testbutton</button>
+			<button>Testbutton</button>
+			<button>Testbutton</button>		
+			
+			
+			</br>
+			
+			<h2>Selection</h2>
+			<label for="pet-select">Choose a pet:</label>
+
+			<select name="pets" id="pet-select">
+				<option value="">--Please choose an option--</option>
+				<option value="dog">Dog</option>
+				<option value="cat">Cat</option>
+				<option value="hamster">Hamster</option>
+				<option value="parrot">Parrot</option>
+				<option value="spider">Spider</option>
+				<option value="goldfish">Goldfish</option>
+			</select>
+
+			
+			
+			
+			<p></p>
+		</div>
+		
+		<div class="box">
+			<h1>Ladezeit:</h1>
+			<div class="time"></div>
+		</div>
+		
+	</div>
+	<script src="/jquery-3.2.1.min.js"></script>
+
+</body>
+</html>

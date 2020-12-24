@@ -1,0 +1,13 @@
+body {
+    font-size: 22px;
+}
+
+.box {
+    float: left;
+    width: 400px;
+    margin-right: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
