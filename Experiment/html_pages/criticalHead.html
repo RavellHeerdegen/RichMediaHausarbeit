@@ -1,11 +1,53 @@
 <!doctype html>
 
 <head>
+
     <meta charset="utf-8">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora" />
+
+    <style>
+        html,
+        body {
+            font-family: Lora, ui-sans-serif;
+            height: 100%;
+            font-size: 22px;
+            background-color: sienna !important;
+            color: white !important;
+        }
+
+        .container {
+            height: 100%;
+        }
+
+        #header {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #new_recipe_button {
+            width: 200px;
+        }
+
+        .show_button {
+            width: 200px;
+        }
+
+        #content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #new_recipe_image {
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dokdo" />
+
     <link rel="stylesheet" href="/styles/criticalHead.css"/>
     <title>Winter Cookery</title>
 </head>
@@ -153,7 +195,6 @@
 
 </div>
 
-<script src="/jquery-3.2.1.min.js"></script>
 <script src="/functions.js"></script>
 </body>
 
