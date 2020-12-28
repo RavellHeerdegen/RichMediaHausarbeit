@@ -1,0 +1,161 @@
+<!doctype html>
+
+<head>
+
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora" />
+    <link rel="stylesheet" href="/styles/CSSSprites.css"/>
+    <title>Winter Cookery</title>
+</head>
+
+<body>
+
+<div class="container">
+    <div id="header">
+        <h2>CSS sprites</h2>
+        <h1>Herzlich Willkommen in der Winterbäckerei</h1>
+        <p>
+            Auf dieser Webseite finden Sie interessante und leckere Rezepte für Wintergebäck.
+            <br />
+            Das neueste Rezept wird Ihnen hier angezeigt.
+        </p>
+        <h2>Tannenkranzkuchen</h2>
+        <img src="cookies4.webp" alt="" id="new_recipe_image" />
+        <button alt="" id="new_recipe_button">Zum Rezept</button>
+        <p>
+            Für mehr Rezepte, öffnen Sie die Tabelle unterhalb dieses Absatzes und
+            klicken Sie auf eines der Bilder.
+        </p>
+    </div>
+    <div id="content">
+        <h2>Weitere Rezepte</h2>
+        <button class="show_button" onclick="showHideButton('table_div')">Rezepte anzeigen</button>
+        <div id="table_div" style="display: none;">
+            <table>
+                <tr>
+                    <td>
+                        <div class="table_element">
+                            <img src="cookies1.webp" alt="" class="table_images" />
+                            <div class="table_element_description">
+									<span>
+										Ein tolles Plätzchen-Rezept für Groß und Klein.
+										Schmeckt fantastisch zu Glühwein und braucht kaum Zutaten.
+									</span>
+                                <button class="recipe_button">Zum Rezept</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="table_element">
+                            <img src="cookies2.webp" alt="" class="table_images" />
+                            <div class="table_element_description">
+									<span>
+										Eine Kreation vielerlei verschiedener Geschmäcker.
+										Vor allem die Himbeermarmelade schmeckt hierdurch wundervoll.
+									</span>
+                                <button class="recipe_button">Zum Rezept</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="table_element">
+                            <img src="cookies3.webp" alt="" class="table_images" />
+                            <div class="table_element_description">
+									<span>
+										Die bunte Mischung bereitet schon Freude beim Anschauen.
+										Der Geschmack ist je nach Glasur unterschiedlich einzigartig.
+									</span>
+                                <button class="recipe_button">Zum Rezept</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+
+        </div>
+        <h2>Die neueste Wintergeschichte</h2>
+        <button class="show_button" onclick="showHideButton('additional_content')">Geschichte anzeigen</button>
+        <div id="additional_content" style="display: none;">
+            <h3>Ein kleiner Baumwollfaden</h3>
+            <p>
+                Es war einmal ein kleiner Baumwollfaden, der hatte Angst, dass es nicht ausreicht, so, wie er war:
+                "Für ein Schiffstau bin ich viel zu schwach", sagte er sich, "und für einen Pullover zu kurz. An
+                andere anzuknüpfen, habe ich viel zu viele Hemmungen. Für eine Stickerei eigne ich mich auch nicht,
+                dazu bin ich zu blass und farblos. Ja, wenn ich aus Lurex wäre, dann könnte ich eine Stola verzieren
+                oder ein Kleid. Aber so?! Es reicht nicht! Was kann ich schon? Niemand braucht mich. Niemand mag
+                mich - und ich mich selbst am wenigsten."
+                So sprach der kleine Baumwollfaden, legte traurige Musik auf und fühlte sich ganz niederge-schlagen
+                in seinem Selbstmitleid.
+
+                Währenddessen läuft draußen in der kalten Nacht ein Klümpchen Wachs in der beängstigenden Dunkelheit
+                verzweifelt umher. "Für eine dicke Weihnachtskerze bin ich viel zu klein" jammert es "und wärmen
+                kann ich kleines Ding alleine auch niemanden. Um Schmuck für eine tolle große Kerze zu sein, bin ich
+                zu langweilig. Ach was soll ich denn nur tun,
+
+                so alleine in der Dunkelheit?"
+
+                Da kommt das kleine Klümpchen Wachs am Häuschen des Baumwollfadens vorbei! Und da es so sehr fror
+                und seine Angst so riesig war, klopfte es schüchten an die Türe.
+                Als es den niedergeschlagenen kleinen Baumwollfaden sah, kam ihm ein wundeschöner Gedanke. Eifrig
+                sagte das Wachs: "Lass dich doch nicht so hängen, du Baumwollfaden. Ich hab' da so eine Idee: Wir
+                beide tun uns zusammen. Für eine große Weihnachtskerze bist du zwar als Docht zu kurz und ich hab'
+                dafür nicht genug Wachs, aber für ein Teelicht reicht es allemal. Es ist doch viel besser, ein
+                kleines Licht anzuzünden, als immer nur über die Dunkelheit zu jammern!"
+
+                Ein kleines Lächeln huschte über das Gesicht des Baumwollfadens und er wurde plötzlich ganz
+                glücklich. Er tat sich mit dem Klümpchen Wachs zusammen und sagte: "Nun hat mein Dasein doch einen
+                Sinn."
+
+                Wer weiß, vielleicht gibt es in der Welt noch mehr kurze Baumwollfäden und kleine Wachsklümpchen,
+                die sich zusammentun könnten, um der Welt zu leuchten?!
+            </p>
+        </div>
+
+    </div>
+    </br>
+    <div>
+        <h2>Konfigurationen</h2>
+        <a href="/"><button>Standardseite</button></a>
+
+        <a href="/async"><button>Asynchrones laden von CSS</button></a>
+
+        <a href="/criticalHead"><button>Kritisches CSS im Head</button></a>
+
+        <a href="/importInCSS"><button>Import von CSS in CSS File</button></a>
+
+        <a href="/InlineCSS"><button>Inline CSS</button></a>
+
+        <a href="/cSSSprites"><button>CSS sprites</button></a>
+
+        <a href="/criticalStyles"><button>Kritisches styling von Elementen</button></a>
+
+        <a href="/inlineCss"><button>Inline CSS</button></a>
+    </div>
+
+
+
+    <div id="footer">
+        <h2>Impressum</h2>
+        <p>Diese Seite wurde erstellt von den fleißigen Elflein</p>
+        <p>Konstantin Rosenberg und Ravell Heerdegen</p>
+        <img src="elfs.webp" alt="" id="impressum_image" />
+    </div>
+
+</div>
+
+<script src="/functions.js"></script>
+</body>
+
+</html>

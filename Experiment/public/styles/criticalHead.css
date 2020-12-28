@@ -1,29 +1,28 @@
-.recipe_button 
-{
+git {
     width: 200px;
 }
 
-#table_div 
+#table_div
 {
     display: flex;
     table-layout: fixed;
     flex-direction: column;
 }
 
-.table_element 
+.table_element
 {
     display: flex;
     flex-direction: row;
 }
 
-.table_element_description 
+.table_element_description
 {
     width: 360px;
     display: flex;
     flex-direction: column;
 }
 
-.table_images 
+.table_images
 {
     height: 200px;
     width: 200px;

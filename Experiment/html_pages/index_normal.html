@@ -1,49 +1,14 @@
 <!doctype html>
 
 <head>
-	<style>
-		html,
-		body {
-			height: 100%;
-			font-size: 18px;
-			background-color: sienna !important;
-			color: white !important;
-		}
 
-		.container {
-			height: 100%;
-		}
-
-		#header {
-			display: flex;
-			flex-direction: column;
-		}
-
-		#new_recipe_button {
-			width: 200px;
-		}
-
-		.show_button {
-			width: 200px;
-		}
-
-		#content {
-			display: flex;
-			flex-direction: column;
-		}
-
-		#new_recipe_image {
-			height: 200px;
-			width: 200px;
-		}
-	</style>
 
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dokdo" />
-	<link rel="stylesheet" href="/styles_normal.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora" />
+	<link rel="stylesheet" href="/styles/styles_normal.css"/>
 	<title>Winter Cookery</title>
 </head>
 
@@ -51,6 +16,7 @@
 
 	<div class="container">
 		<div id="header">
+			<h2>Standardseite</h2>
 			<h1>Herzlich Willkommen in der Winterbäckerei</h1>
 			<p>
 				Auf dieser Webseite finden Sie interessante und leckere Rezepte für Wintergebäck.
@@ -158,6 +124,28 @@
 			</div>
 
 		</div>
+		</br>
+		<div>
+			<h2>Konfigurationen</h2>
+			<a href="/"><button>Standardseite</button></a>
+
+			<a href="/async"><button>Asynchrones laden von CSS</button></a>
+
+			<a href="/criticalHead"><button>Kritisches CSS im Head</button></a>
+
+			<a href="/importInCSS"><button>Import von CSS in CSS File</button></a>
+
+			<a href="/InlineCSS"><button>Inline CSS</button></a>
+
+			<a href="/cSSSprites"><button>CSS sprites</button></a>
+
+			<a href="/criticalStyles"><button>Kritisches styling von Elementen</button></a>
+
+			<a href="/inlineCss"><button>Inline CSS</button></a>
+		</div>
+
+
+
 		<div id="footer">
 			<h2>Impressum</h2>
 			<p>Diese Seite wurde erstellt von den fleißigen Elflein</p>
@@ -167,7 +155,6 @@
 
 	</div>
 
-	<script src="/jquery-3.2.1.min.js"></script>
 	<script src="/functions.js"></script>
 </body>
 
