@@ -1,0 +1,36 @@
+.recipe_button 
+{
+    width: 200px;
+}
+
+#table_div 
+{
+    display: flex;
+    table-layout: fixed;
+    flex-direction: column;
+}
+
+.table_element 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.table_element_description 
+{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.table_images 
+{
+    height: 200px;
+    width: 200px;
+}
+
+#impressum_image
+{
+    height: 200px;
+    width: 200px;
+}
