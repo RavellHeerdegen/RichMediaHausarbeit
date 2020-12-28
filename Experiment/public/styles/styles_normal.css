@@ -2,8 +2,9 @@
 
 html,
 body {
+    font-family: Lora, ui-sans-serif;
     height: 100%;
-    font-size: 18px;
+    font-size: 22px;
     background-color: sienna !important;
     color: white !important;
 }
@@ -34,7 +35,6 @@ body {
     height: 200px;
     width: 200px;
 }
-
 
 /*critical css end*/
 
