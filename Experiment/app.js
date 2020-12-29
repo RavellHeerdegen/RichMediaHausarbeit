@@ -32,6 +32,9 @@ app.get('/inlineCSS', function(req, res) {
     res.sendFile(path.join(__dirname + '/html_pages/inlineCSS.html'));
 });
 
+app.get('/compressedCSS', function(req, res) {
+    res.sendFile(path.join(__dirname + '/html_pages/compressedCSS.html'));
+});
 
 app.listen(8080,()=>{
     console.log("app is listening on port 8080");
