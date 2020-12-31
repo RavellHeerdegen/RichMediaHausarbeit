@@ -1,5 +1,8 @@
 <!doctype html>
-
+<html style="
+    height: 100%;
+    font-size: 22px;
+    ">
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -10,10 +13,11 @@
     <title>Winter Cookery</title>
 </head>
 
-<body>
+<body style=" font-family: Lora, ui-sans-serif;background-color: sienna !important;
+    color: white !important;">
 
-<div class="container">
-    <div id="header">
+<div class="container" style="height: 100%;">
+    <div id="header" style="display: flex; flex-direction: column;">
         <h2>Inline CSS (Styles are inline if possible, Images are presized in webp)</h2>
         <h1>Herzlich Willkommen in der Winterbäckerei</h1>
         <p>
@@ -22,56 +26,59 @@
             Das neueste Rezept wird Ihnen hier angezeigt.
         </p>
         <h2>Tannenkranzkuchen</h2>
-        <img src="cookies4_presized.webp" alt="" id="new_recipe_image" />
-        <button alt="" id="new_recipe_button">Zum Rezept</button>
+        <img src="cookies4_presized.webp" alt="" id="new_recipe_image" style=" height: 200px;
+    width: 200px;"/>
+        <button alt="" id="new_recipe_button" style="width: 200px;">Zum Rezept</button>
         <p>
             Für mehr Rezepte, öffnen Sie die Tabelle unterhalb dieses Absatzes und
             klicken Sie auf eines der Bilder.
         </p>
     </div>
-    <div id="content">
+    <div id="content" style="display: flex; flex-direction: column;">
         <h2>Weitere Rezepte</h2>
-        <button class="show_button" onclick="showHideButton('table_div')">Rezepte anzeigen</button>
-        <div id="table_div" style="display: none;">
+        <button class="show_button" style="width: 200px " onclick="showHideButton('table_div')">Rezepte anzeigen</button>
+        <div id="table_div" style="display: none;
+    table-layout: fixed;
+    flex-direction: column;">
             <table>
                 <tr>
                     <td>
-                        <div class="table_element">
-                            <img src="cookies1_presized.webp" alt="" class="table_images" />
-                            <div class="table_element_description">
+                        <div class="table_element" style="display: flex;flex-direction: row;">
+                            <img src="cookies1_presized.webp" alt="" style="height: 200px;width: 200px;"/>
+                            <div style="width: 360px;display: flex;flex-direction: column;">
 									<span>
 										Ein tolles Plätzchen-Rezept für Groß und Klein.
 										Schmeckt fantastisch zu Glühwein und braucht kaum Zutaten.
 									</span>
-                                <button class="recipe_button">Zum Rezept</button>
+                                <button class="recipe_button" style="width: 200px;">Zum Rezept</button>
                             </div>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <div class="table_element">
-                            <img src="cookies2_presized.webp" alt="" class="table_images" />
-                            <div class="table_element_description">
+                        <div class="table_element" style="display: flex;flex-direction: row;">
+                            <img src="cookies2_presized.webp" alt=""  style="height: 200px;width: 200px;"/>
+                            <div style="width: 360px;display: flex;flex-direction: column;">
 									<span>
 										Eine Kreation vielerlei verschiedener Geschmäcker.
 										Vor allem die Himbeermarmelade schmeckt hierdurch wundervoll.
 									</span>
-                                <button class="recipe_button">Zum Rezept</button>
+                                <button class="recipe_button" style="width: 200px;">Zum Rezept</button>
                             </div>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <div class="table_element">
-                            <img src="cookies3_presized.webp" alt="" class="table_images" />
-                            <div class="table_element_description">
+                        <div class="table_element" style="display: flex;flex-direction: row;">
+                            <img src="cookies3_presized.webp" alt="" style="height: 200px;width: 200px;"/>
+                            <div style="width: 360px;display: flex;flex-direction: column;">
 									<span>
 										Die bunte Mischung bereitet schon Freude beim Anschauen.
 										Der Geschmack ist je nach Glasur unterschiedlich einzigartig.
 									</span>
-                                <button class="recipe_button">Zum Rezept</button>
+                                <button class="recipe_button" style="width: 200px;">Zum Rezept</button>
                             </div>
                         </div>
                     </td>
@@ -84,7 +91,7 @@
 
         </div>
         <h2>Die neueste Wintergeschichte</h2>
-        <button class="show_button" onclick="showHideButton('additional_content')">Geschichte anzeigen</button>
+        <button class="show_button" style="width: 200px" onclick="showHideButton('additional_content')">Geschichte anzeigen</button>
         <div id="additional_content" style="display: none;">
             <h3>Ein kleiner Baumwollfaden</h3>
             <p>
@@ -150,7 +157,7 @@
         <h2>Impressum</h2>
         <p>Diese Seite wurde erstellt von den fleißigen Elflein</p>
         <p>Konstantin Rosenberg und Ravell Heerdegen</p>
-        <img src="elfs_presized.webp" alt="" id="impressum_image" />
+        <img src="elfs_presized.webp" alt="" style="height: 200px;width: 200px;"/>
     </div>
 
 </div>
