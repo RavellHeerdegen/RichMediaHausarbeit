@@ -1,0 +1,118 @@
+/*critical css start*/
+
+html,
+body {
+    font-family: Lora, ui-sans-serif;
+    height: 100%;
+    font-size: 22px;
+    background-color: sienna !important;
+    color: white !important;
+}
+
+.container {
+    height: 100%;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+}
+
+#new_recipe_button {
+    width: 200px;
+    background-color: firebrick;
+    border-radius: 12px;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.show_button {
+    background-color: firebrick;
+    border-radius: 12px;
+    color: white;
+    width: 200px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#new_recipe_image {
+    height: 200px;
+    width: 200px;
+    border: 6px solid firebrick;
+    filter: blur(6px);
+}
+
+/*critical css end*/
+
+.recipe_button
+{
+    background-color: firebrick;
+    color: white;
+    border-radius: 12px;
+    width: 200px;
+}
+
+#table_div 
+{
+    display: flex;
+    table-layout: fixed;
+    flex-direction: column;
+}
+
+.table_element 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.table_element_description 
+{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.table_images 
+{
+    height: 200px;
+    width: 200px;
+    border: 6px solid firebrick;
+    filter: blur(6px);
+}
+
+#impressum_image
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid firebrick;
+}
+
+/* Sehr schlechte Selektoren */
+
+div[class="container"] > div > a > button 
+{
+    background-color: firebrick;
+    color: white;
+    border-radius: 12px;
+    margin: 12px;
+    width: 320px;
+    transform: rotate(8deg) scale(1.2);
+}
+
+div[id="additional_content"] > p 
+{
+    background-color: rgba(90, 47, 27, 0.5);
+    padding: 6px 12px 6px 12px;
+    border: 2px solid forestgreen;
+}
+
+div[class="container"] > div[id="header"] h1
+{
+    color: forestgreen;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}

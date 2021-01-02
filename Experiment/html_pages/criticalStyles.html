@@ -4,11 +4,11 @@
 
 
     <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles/criticalStyles.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora" />
-    <link rel="stylesheet" href="/styles/criticalStyles.css"/>
     <title>Winter Cookery</title>
 </head>
 
@@ -33,8 +33,8 @@
     </div>
     <div id="content">
         <h2>Weitere Rezepte</h2>
-        <button class="show_button" onclick="showHideButton('table_div')">Rezepte anzeigen</button>
-        <div id="table_div" style="display: none;">
+        <button class="show_button" onclick="showHideButtonOpacity('table_div')">Rezepte anzeigen</button>
+        <div id="table_div" style="display: none; opacity: 0;">
             <table>
                 <tr>
                     <td>
@@ -86,8 +86,8 @@
 
         </div>
         <h2>Die neueste Wintergeschichte</h2>
-        <button class="show_button" onclick="showHideButton('additional_content')">Geschichte anzeigen</button>
-        <div id="additional_content" style="display: none;">
+        <button class="show_button" onclick="showHideButtonOpacity('additional_content')">Geschichte anzeigen</button>
+        <div id="additional_content" style="display: none; opacity: 0;">
             <h3>Ein kleiner Baumwollfaden</h3>
             <p>
                 Es war einmal ein kleiner Baumwollfaden, der hatte Angst, dass es nicht ausreicht, so, wie er war:
@@ -140,8 +140,6 @@
         <a href="/cSSSprites"><button>CSS sprites</button></a>
 
         <a href="/criticalStyles"><button>Kritisches styling von Elementen</button></a>
-
-        <a href="/inlineCss"><button>Inline CSS</button></a>
 
         <a href="/compressedCSS"><button>Compressed CSS</button></a>
     </div>

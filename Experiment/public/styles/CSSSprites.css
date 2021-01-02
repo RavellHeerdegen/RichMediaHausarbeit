@@ -1,0 +1,88 @@
+/*critical css start*/
+
+html,
+body {
+    font-family: Lora, ui-sans-serif;
+    height: 100%;
+    font-size: 22px;
+    background-color: sienna !important;
+    color: white !important;
+}
+
+.container {
+    height: 100%;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+}
+
+#new_recipe_button {
+    width: 200px;
+}
+
+.show_button {
+    width: 200px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#new_recipe_image {
+    width: 200px; height: 200px;
+    background: url('../css_sprites.webp') -450px -10px;
+}
+
+/*critical css end*/
+
+.recipe_button
+{
+    width: 200px;
+}
+
+#table_div 
+{
+    display: flex;
+    table-layout: fixed;
+    flex-direction: column;
+}
+
+.table_element 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.table_element_description 
+{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+#table_images1
+{
+    width: 200px; height: 200px;
+    background: url('../css_sprites.webp') -10px -10px;
+}
+
+#table_images2
+{
+    width: 200px; height: 200px;
+    background: url('../css_sprites.webp') -230px -10px;
+}
+
+#table_images3
+{
+    width: 200px; height: 200px;
+    background: url('../css_sprites.webp') -10px -230px;
+}
+
+#impressum_image
+{
+    width: 200px; height: 200px;
+    background: url('../css_sprites.webp') -230px -230px;
+}

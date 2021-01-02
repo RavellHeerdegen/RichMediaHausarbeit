@@ -1,11 +1,16 @@
+/* Für CSS compression muss der folgende require aktiv sein */
+// var compression = require('compression');
 var express = require('express');
 var app = express();
 var path = require('path');
 
+/* Für CSS compression muss der folgende Use aktiv sein */
+// app.use(compression()); // Muss für Gzip compression aktiv sein
+
 app.use(express.static(__dirname + "/public"));
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/html_pages/index_normal.html'));
+    res.sendFile(path.join(__dirname + '/html_pages/index.html'));
 });
 
 app.get('/async', function(req, res) {
